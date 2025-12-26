@@ -1,0 +1,47 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Python (Backend)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+backend/venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node.js (Frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+frontend/dist/
+frontend/build/
+.eslintcache
+
+# Cloudinary / Assets (if local)
+# Assuming uploads might be stored locally temporarily if not using Cloudinary direct
+uploads/
+backend/static/uploads/

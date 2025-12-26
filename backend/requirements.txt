@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+redis
+google-generativeai
+supabase
+cloudinary
+python-multipart
+python-dotenv
+websockets
+pydantic-settings
+passlib[argon2]
+argon2-cffi
+email-validator
+sqlalchemy
+psycopg2-binary
