@@ -2,6 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.95%2B-009688)
+![WebSockets](https://img.shields.io/badge/WebSockets-Real--Time-orange)
 ![React](https://img.shields.io/badge/React-18-61DAFB)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
@@ -12,7 +13,7 @@ A professional, real-time chat application featuring **private 1-on-1 messaging*
 ## 🚀 Features
 
 ### 💬 Real-time Communication
-*   **Private Chats**: Secure 1-on-1 conversations with real-time delivery via WebSockets.
+*   **Private Chats**: Secure 1-on-1 conversations with real-time delivery via **WebSockets**.
 *   **Live Status**: Online/Offline indicators for connectivity.
 *   **User Search**: Find and connect with other users instantly.
 
@@ -63,6 +64,7 @@ graph TD
 |-----------|------------|-------------|
 | **Frontend** | React, Tailwind CSS | Vite-powered SPA with Lucide icons. |
 | **Backend** | FastAPI | High-performance async Python framework. |
+| **Real-time** | **WebSockets** | Native bi-directional communication protocol. |
 | **Database** | Supabase (PostgreSQL) | Primary data store for users and chats. |
 | **Cache/PubSub** | Redis | Message buffering and real-time events. |
 | **AI Model** | Google Gemini 2.5 Flash | Multimodal content analysis. |
